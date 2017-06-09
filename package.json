@@ -1,0 +1,23 @@
+{
+  "name": "xhr-js-jquery",
+  "version": "1.0.0",
+  "description": "ProbandoXMLHttp Request con JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[B"
+  },
+  "keywords": [
+    "js",
+    "xhr",
+    "json"
+  ],
+  "author": "Mariana Jane <mariana\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C \u001b[C\u001b[C\u001b[C\u001b[C\u001b <mariana.musm\u001b2@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
