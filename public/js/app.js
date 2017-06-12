@@ -80,7 +80,7 @@ var pokemones= [
 
 function cargarPagina(){
   var plantillaPokemons =
-    '<section class="col s3">' +
+    '<section class="col s3" href="#modal1">' +
       '<a href="#modal1"><img data-pokemon="__data__" class="img-pokemons" src="__imagen__" alt=""></a>'  +
       '<h5>__nombre__</h5>' +
     '</section>';
@@ -100,6 +100,14 @@ function cargarPagina(){
    });
       $contenedor.html(plantillaFinal);
   };
+
+	function mostrarModal(){
+      $.getJSON("http://pokeapi.co/api/v2/pokemon-species/", function(response){
+        var colorPokemon = response.color;
+        console.log(response);
+
+     });
+ };
 
    $('.modal').modal();
 };
