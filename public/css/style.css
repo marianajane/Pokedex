@@ -1,4 +1,8 @@
-.wrap-img>li {
-	margin: 15vh;
+.contenedor {
 	display: inline-block;
+	text-align: center;
+}
+
+.img-pokemons {
+	width: 60%;
 }

@@ -7,17 +7,27 @@
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 </head>
 <body>
-	<nav class="red">
-	    <div class="nav-wrapper">
+	<nav class="red row" >
+	    <div class="nav-wrapper col s12">
 	      <a href="#" class="brand-logo center"><img src="img/Logo_Pokemon.png" width="150"></a>
 	    </div>
 	</nav>
-	<div class="row">
-		<div class="col s12">
-			<ul class="wrap-img" id="pokemons"></ul>
-		</div>
+	<section class="center-align">
+		<section id="contenedorPokemons" class="row">
+		</section>
+	</section>
+  <!-- Modal -->
+	<div id="modal1" class="modal">
+	    <div class="modal-content">
+	      <h4>Pokemon</h4>
+	      <p>xxxx</p>
+	    </div>
+	    <div class="modal-footer">
+	      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Salir</a>
+	    </div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="./js/app.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
