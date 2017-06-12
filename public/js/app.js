@@ -28,7 +28,7 @@ function crearPokemons(pokemons) {
 	pokemons.forEach(function (pokemon) {
 		var li = document.createElement("li");
 		li.textContent = pokemon.name;
-
+		console.log(pokemon);
 		ul.appendChild(li);
 	});
 };

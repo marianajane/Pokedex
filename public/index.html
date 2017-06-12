@@ -2,12 +2,22 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>AJAX, JSON y APIs</title>
+	<title>Pokedex</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 </head>
 <body>
-	<ul id="pokemons"></ul>
+	<nav class="red">
+	    <div class="nav-wrapper">
+	      <a href="#" class="brand-logo center"><img src="img/Logo_Pokemon.png" width="150"></a>
+	    </div>
+	</nav>
+	<div class="row">
+		<div class="col s12">
+			<ul class="wrap-img" id="pokemons"></ul>
+		</div>
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="./js/app.js"></script>
-
 </body>
 </html>
